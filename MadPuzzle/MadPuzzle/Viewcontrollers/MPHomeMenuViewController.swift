@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MPHomeMenuViewController: MPBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -8,14 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		3D51A691250CDAACEAA4EBDD /* Pods_MadPuzzleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 408BF2901E710E6A518E7960 /* Pods_MadPuzzleTests.framework */; };
+		58335ED81EEE95160061175D /* MPButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58335ED71EEE95160061175D /* MPButtons.swift */; };
 		58874E921EED22950008DDF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58874E911EED22950008DDF1 /* AppDelegate.swift */; };
-		58874E941EED22950008DDF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58874E931EED22950008DDF1 /* ViewController.swift */; };
+		58874E941EED22950008DDF1 /* MPHomeMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58874E931EED22950008DDF1 /* MPHomeMenuViewController.swift */; };
 		58874E971EED22950008DDF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58874E951EED22950008DDF1 /* Main.storyboard */; };
 		58874E991EED22950008DDF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58874E981EED22950008DDF1 /* Assets.xcassets */; };
 		58874E9C1EED22950008DDF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58874E9A1EED22950008DDF1 /* LaunchScreen.storyboard */; };
 		58874EA71EED22950008DDF1 /* MadPuzzleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58874EA61EED22950008DDF1 /* MadPuzzleTests.swift */; };
 		58874EB21EED22950008DDF1 /* MadPuzzleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58874EB11EED22950008DDF1 /* MadPuzzleUITests.swift */; };
 		58874EC11EED285C0008DDF1 /* MPImageEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58874EC01EED285C0008DDF1 /* MPImageEditor.swift */; };
+		58DB69F91EEEA1B900F911CE /* MPBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DB69F81EEEA1B900F911CE /* MPBaseViewController.swift */; };
+		58DB69FC1EEEA1F200F911CE /* MPPrepareGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DB69FB1EEEA1F200F911CE /* MPPrepareGameViewController.swift */; };
 		71B280326BF891BAD1DD58DF /* Pods_MadPuzzleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E6682319D4545175ED9F18B /* Pods_MadPuzzleUITests.framework */; };
 		BB8CA8C13ABFB4FF19B80B2B /* Pods_MadPuzzle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCBA6B655DDDBC1835EFCC73 /* Pods_MadPuzzle.framework */; };
 /* End PBXBuildFile section */
@@ -41,9 +44,10 @@
 		0E6682319D4545175ED9F18B /* Pods_MadPuzzleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MadPuzzleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		408BF2901E710E6A518E7960 /* Pods_MadPuzzleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MadPuzzleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E7448E31B19127093672FDA /* Pods-MadPuzzleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadPuzzleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MadPuzzleUITests/Pods-MadPuzzleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		58335ED71EEE95160061175D /* MPButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPButtons.swift; sourceTree = "<group>"; };
 		58874E8E1EED22950008DDF1 /* MadPuzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MadPuzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58874E911EED22950008DDF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		58874E931EED22950008DDF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		58874E931EED22950008DDF1 /* MPHomeMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPHomeMenuViewController.swift; sourceTree = "<group>"; };
 		58874E961EED22950008DDF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58874E981EED22950008DDF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58874E9B1EED22950008DDF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,6 +59,8 @@
 		58874EB11EED22950008DDF1 /* MadPuzzleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MadPuzzleUITests.swift; sourceTree = "<group>"; };
 		58874EB31EED22950008DDF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58874EC01EED285C0008DDF1 /* MPImageEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPImageEditor.swift; sourceTree = "<group>"; };
+		58DB69F81EEEA1B900F911CE /* MPBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPBaseViewController.swift; sourceTree = "<group>"; };
+		58DB69FB1EEEA1F200F911CE /* MPPrepareGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPPrepareGameViewController.swift; sourceTree = "<group>"; };
 		AFFF72E48E44B25DDB28DD97 /* Pods-MadPuzzle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadPuzzle.release.xcconfig"; path = "Pods/Target Support Files/Pods-MadPuzzle/Pods-MadPuzzle.release.xcconfig"; sourceTree = "<group>"; };
 		BA596E41EFD17953EF8B76FF /* Pods-MadPuzzle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadPuzzle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MadPuzzle/Pods-MadPuzzle.debug.xcconfig"; sourceTree = "<group>"; };
 		BCBA6B655DDDBC1835EFCC73 /* Pods_MadPuzzle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MadPuzzle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +97,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		58335ED51EEE94DB0061175D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				58335ED61EEE94EC0061175D /* Buttons */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		58335ED61EEE94EC0061175D /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				58335ED71EEE95160061175D /* MPButtons.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
 		58874E851EED22950008DDF1 = {
 			isa = PBXGroup;
 			children = (
@@ -116,9 +138,10 @@
 		58874E901EED22950008DDF1 /* MadPuzzle */ = {
 			isa = PBXGroup;
 			children = (
+				58DB69FA1EEEA1C000F911CE /* Viewcontrollers */,
+				58335ED51EEE94DB0061175D /* Components */,
 				58874EBF1EED283D0008DDF1 /* Tools */,
 				58874E911EED22950008DDF1 /* AppDelegate.swift */,
-				58874E931EED22950008DDF1 /* ViewController.swift */,
 				58874E951EED22950008DDF1 /* Main.storyboard */,
 				58874E981EED22950008DDF1 /* Assets.xcassets */,
 				58874E9A1EED22950008DDF1 /* LaunchScreen.storyboard */,
@@ -151,6 +174,16 @@
 				58874EC01EED285C0008DDF1 /* MPImageEditor.swift */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		58DB69FA1EEEA1C000F911CE /* Viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				58874E931EED22950008DDF1 /* MPHomeMenuViewController.swift */,
+				58DB69F81EEEA1B900F911CE /* MPBaseViewController.swift */,
+				58DB69FB1EEEA1F200F911CE /* MPPrepareGameViewController.swift */,
+			);
+			path = Viewcontrollers;
 			sourceTree = "<group>";
 		};
 		7957F30085CEFBE05A28C8C1 /* Frameworks */ = {
@@ -454,8 +487,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58874E941EED22950008DDF1 /* ViewController.swift in Sources */,
+				58874E941EED22950008DDF1 /* MPHomeMenuViewController.swift in Sources */,
+				58DB69FC1EEEA1F200F911CE /* MPPrepareGameViewController.swift in Sources */,
 				58874E921EED22950008DDF1 /* AppDelegate.swift in Sources */,
+				58DB69F91EEEA1B900F911CE /* MPBaseViewController.swift in Sources */,
+				58335ED81EEE95160061175D /* MPButtons.swift in Sources */,
 				58874EC11EED285C0008DDF1 /* MPImageEditor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -531,6 +567,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
@@ -586,6 +624,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
@@ -619,9 +659,10 @@
 			baseConfigurationReference = BA596E41EFD17953EF8B76FF /* Pods-MadPuzzle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T4EZ8P4FAC;
 				INFOPLIST_FILE = MadPuzzle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.truong.puzzle.MadPuzzle;
+				PRODUCT_BUNDLE_IDENTIFIER = com.truong.MadPuzzle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -633,9 +674,10 @@
 			baseConfigurationReference = AFFF72E48E44B25DDB28DD97 /* Pods-MadPuzzle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T4EZ8P4FAC;
 				INFOPLIST_FILE = MadPuzzle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.truong.puzzle.MadPuzzle;
+				PRODUCT_BUNDLE_IDENTIFIER = com.truong.MadPuzzle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -723,6 +765,7 @@
 				58874EB81EED22950008DDF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		58874EB91EED22950008DDF1 /* Build configuration list for PBXNativeTarget "MadPuzzleTests" */ = {
 			isa = XCConfigurationList;
@@ -731,6 +774,7 @@
 				58874EBB1EED22950008DDF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		58874EBC1EED22950008DDF1 /* Build configuration list for PBXNativeTarget "MadPuzzleUITests" */ = {
 			isa = XCConfigurationList;
@@ -739,6 +783,7 @@
 				58874EBE1EED22950008DDF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
