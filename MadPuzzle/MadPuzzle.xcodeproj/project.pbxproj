@@ -754,7 +754,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Z4JE768Y25;
+				DEVELOPMENT_TEAM = KMLF789FRP;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -777,7 +777,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Z4JE768Y25;
+				DEVELOPMENT_TEAM = KMLF789FRP;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -799,7 +799,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = Z4JE768Y25;
+				DEVELOPMENT_TEAM = KMLF789FRP;
 				INFOPLIST_FILE = MadPuzzleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.truong.puzzle.MadPuzzleTests;
@@ -816,7 +816,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = Z4JE768Y25;
+				DEVELOPMENT_TEAM = KMLF789FRP;
 				INFOPLIST_FILE = MadPuzzleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.truong.puzzle.MadPuzzleTests;
@@ -832,7 +832,7 @@
 			baseConfigurationReference = 4E7448E31B19127093672FDA /* Pods-MadPuzzleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = Z4JE768Y25;
+				DEVELOPMENT_TEAM = KMLF789FRP;
 				INFOPLIST_FILE = MadPuzzleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.truong.puzzle.MadPuzzleUITests;
@@ -848,7 +848,7 @@
 			baseConfigurationReference = D64FE05FDEAE6C51631B548A /* Pods-MadPuzzleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = Z4JE768Y25;
+				DEVELOPMENT_TEAM = KMLF789FRP;
 				INFOPLIST_FILE = MadPuzzleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.truong.puzzle.MadPuzzleUITests;
