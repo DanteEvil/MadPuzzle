@@ -85,7 +85,7 @@
 		58FFEE441EF0F20800B50F0E /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		58FFEE451EF0F20800B50F0E /* ImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCollectionViewCell.xib; sourceTree = "<group>"; };
 		6F3F799C3D758496B3E5C1C3 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
-		6F5C298DA9DB82261CC1F785 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BuddyBuildSDK.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
+		6F5C298DA9DB82261CC1F785 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
 		93EF5E2C23361D389569FBA8 /* Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		AFFF72E48E44B25DDB28DD97 /* Pods-MadPuzzle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadPuzzle.release.xcconfig"; path = "Pods/Target Support Files/Pods-MadPuzzle/Pods-MadPuzzle.release.xcconfig"; sourceTree = "<group>"; };
 		BA596E41EFD17953EF8B76FF /* Pods-MadPuzzle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadPuzzle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MadPuzzle/Pods-MadPuzzle.debug.xcconfig"; sourceTree = "<group>"; };
@@ -796,6 +796,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z4JE768Y25;
 				INFOPLIST_FILE = MadPuzzleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.truong.puzzle.MadPuzzleTests;
@@ -812,6 +813,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z4JE768Y25;
 				INFOPLIST_FILE = MadPuzzleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.truong.puzzle.MadPuzzleTests;
@@ -827,6 +829,7 @@
 			baseConfigurationReference = 4E7448E31B19127093672FDA /* Pods-MadPuzzleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Z4JE768Y25;
 				INFOPLIST_FILE = MadPuzzleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.truong.puzzle.MadPuzzleUITests;
@@ -842,6 +845,7 @@
 			baseConfigurationReference = D64FE05FDEAE6C51631B548A /* Pods-MadPuzzleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Z4JE768Y25;
 				INFOPLIST_FILE = MadPuzzleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.truong.puzzle.MadPuzzleUITests;
