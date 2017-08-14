@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		3D51A691250CDAACEAA4EBDD /* Pods_MadPuzzleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 408BF2901E710E6A518E7960 /* Pods_MadPuzzleTests.framework */; };
 		58335ED81EEE95160061175D /* MPButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58335ED71EEE95160061175D /* MPButtons.swift */; };
+		5837D9601EF7BE35008E2F5A /* MPImageListLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5837D95F1EF7BE35008E2F5A /* MPImageListLayout.swift */; };
+		583DAAC21EEFDA1700063F72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 583DAAC11EEFDA1700063F72 /* Images.xcassets */; };
 		58874E921EED22950008DDF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58874E911EED22950008DDF1 /* AppDelegate.swift */; };
 		58874E941EED22950008DDF1 /* MPHomeMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58874E931EED22950008DDF1 /* MPHomeMenuViewController.swift */; };
 		58874E971EED22950008DDF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58874E951EED22950008DDF1 /* Main.storyboard */; };
@@ -19,6 +21,8 @@
 		58874EC11EED285C0008DDF1 /* MPImageEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58874EC01EED285C0008DDF1 /* MPImageEditor.swift */; };
 		58DB69F91EEEA1B900F911CE /* MPBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DB69F81EEEA1B900F911CE /* MPBaseViewController.swift */; };
 		58DB69FC1EEEA1F200F911CE /* MPPrepareGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DB69FB1EEEA1F200F911CE /* MPPrepareGameViewController.swift */; };
+		58FFEE461EF0F20800B50F0E /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FFEE441EF0F20800B50F0E /* ImageCollectionViewCell.swift */; };
+		58FFEE471EF0F20800B50F0E /* ImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58FFEE451EF0F20800B50F0E /* ImageCollectionViewCell.xib */; };
 		71B280326BF891BAD1DD58DF /* Pods_MadPuzzleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E6682319D4545175ED9F18B /* Pods_MadPuzzleUITests.framework */; };
 		BB8CA8C13ABFB4FF19B80B2B /* Pods_MadPuzzle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCBA6B655DDDBC1835EFCC73 /* Pods_MadPuzzle.framework */; };
 /* End PBXBuildFile section */
@@ -45,6 +49,8 @@
 		408BF2901E710E6A518E7960 /* Pods_MadPuzzleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MadPuzzleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E7448E31B19127093672FDA /* Pods-MadPuzzleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadPuzzleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MadPuzzleUITests/Pods-MadPuzzleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		58335ED71EEE95160061175D /* MPButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPButtons.swift; sourceTree = "<group>"; };
+		5837D95F1EF7BE35008E2F5A /* MPImageListLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPImageListLayout.swift; sourceTree = "<group>"; };
+		583DAAC11EEFDA1700063F72 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		58874E8E1EED22950008DDF1 /* MadPuzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MadPuzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58874E911EED22950008DDF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58874E931EED22950008DDF1 /* MPHomeMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPHomeMenuViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +67,8 @@
 		58874EC01EED285C0008DDF1 /* MPImageEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPImageEditor.swift; sourceTree = "<group>"; };
 		58DB69F81EEEA1B900F911CE /* MPBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPBaseViewController.swift; sourceTree = "<group>"; };
 		58DB69FB1EEEA1F200F911CE /* MPPrepareGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPPrepareGameViewController.swift; sourceTree = "<group>"; };
+		58FFEE441EF0F20800B50F0E /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		58FFEE451EF0F20800B50F0E /* ImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCollectionViewCell.xib; sourceTree = "<group>"; };
 		AFFF72E48E44B25DDB28DD97 /* Pods-MadPuzzle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadPuzzle.release.xcconfig"; path = "Pods/Target Support Files/Pods-MadPuzzle/Pods-MadPuzzle.release.xcconfig"; sourceTree = "<group>"; };
 		BA596E41EFD17953EF8B76FF /* Pods-MadPuzzle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadPuzzle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MadPuzzle/Pods-MadPuzzle.debug.xcconfig"; sourceTree = "<group>"; };
 		BCBA6B655DDDBC1835EFCC73 /* Pods_MadPuzzle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MadPuzzle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,6 +121,14 @@
 			path = Buttons;
 			sourceTree = "<group>";
 		};
+		583DAAC01EEFD88A00063F72 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				583DAAC11EEFDA1700063F72 /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		58874E851EED22950008DDF1 = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +154,7 @@
 		58874E901EED22950008DDF1 /* MadPuzzle */ = {
 			isa = PBXGroup;
 			children = (
+				583DAAC01EEFD88A00063F72 /* Resources */,
 				58DB69FA1EEEA1C000F911CE /* Viewcontrollers */,
 				58335ED51EEE94DB0061175D /* Components */,
 				58874EBF1EED283D0008DDF1 /* Tools */,
@@ -179,11 +196,30 @@
 		58DB69FA1EEEA1C000F911CE /* Viewcontrollers */ = {
 			isa = PBXGroup;
 			children = (
+				58F224231EEFF2F2001C9F60 /* PrepareGame */,
 				58874E931EED22950008DDF1 /* MPHomeMenuViewController.swift */,
 				58DB69F81EEEA1B900F911CE /* MPBaseViewController.swift */,
-				58DB69FB1EEEA1F200F911CE /* MPPrepareGameViewController.swift */,
 			);
 			path = Viewcontrollers;
+			sourceTree = "<group>";
+		};
+		58F224231EEFF2F2001C9F60 /* PrepareGame */ = {
+			isa = PBXGroup;
+			children = (
+				58FFEE431EF0EFE900B50F0E /* CollectionView */,
+				58DB69FB1EEEA1F200F911CE /* MPPrepareGameViewController.swift */,
+			);
+			path = PrepareGame;
+			sourceTree = "<group>";
+		};
+		58FFEE431EF0EFE900B50F0E /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				58FFEE441EF0F20800B50F0E /* ImageCollectionViewCell.swift */,
+				58FFEE451EF0F20800B50F0E /* ImageCollectionViewCell.xib */,
+				5837D95F1EF7BE35008E2F5A /* MPImageListLayout.swift */,
+			);
+			path = CollectionView;
 			sourceTree = "<group>";
 		};
 		7957F30085CEFBE05A28C8C1 /* Frameworks */ = {
@@ -286,6 +322,7 @@
 				TargetAttributes = {
 					58874E8D1EED22950008DDF1 = {
 						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
 					};
 					58874EA11EED22950008DDF1 = {
 						CreatedOnToolsVersion = 9.0;
@@ -323,8 +360,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				58874E9C1EED22950008DDF1 /* LaunchScreen.storyboard in Resources */,
+				583DAAC21EEFDA1700063F72 /* Images.xcassets in Resources */,
 				58874E991EED22950008DDF1 /* Assets.xcassets in Resources */,
 				58874E971EED22950008DDF1 /* Main.storyboard in Resources */,
+				58FFEE471EF0F20800B50F0E /* ImageCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,13 +420,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MadPuzzleUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		76E8FF6CC4AEF174FCF30500 /* [CP] Copy Pods Resources */ = {
@@ -411,13 +453,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MadPuzzle-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BC198969341FA495BEF3E687 /* [CP] Copy Pods Resources */ = {
@@ -441,13 +486,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MadPuzzleTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E58B979E6B46F2246B160DE7 /* [CP] Embed Pods Frameworks */ = {
@@ -488,8 +536,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				58874E941EED22950008DDF1 /* MPHomeMenuViewController.swift in Sources */,
+				58FFEE461EF0F20800B50F0E /* ImageCollectionViewCell.swift in Sources */,
 				58DB69FC1EEEA1F200F911CE /* MPPrepareGameViewController.swift in Sources */,
 				58874E921EED22950008DDF1 /* AppDelegate.swift in Sources */,
+				5837D9601EF7BE35008E2F5A /* MPImageListLayout.swift in Sources */,
 				58DB69F91EEEA1B900F911CE /* MPBaseViewController.swift in Sources */,
 				58335ED81EEE95160061175D /* MPButtons.swift in Sources */,
 				58874EC11EED285C0008DDF1 /* MPImageEditor.swift in Sources */,
@@ -595,12 +645,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -646,10 +697,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -659,13 +711,16 @@
 			baseConfigurationReference = BA596E41EFD17953EF8B76FF /* Pods-MadPuzzle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = T4EZ8P4FAC;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z4JE768Y25;
 				INFOPLIST_FILE = MadPuzzle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.truong.MadPuzzle;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dantevil.MadPuzzle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -674,13 +729,16 @@
 			baseConfigurationReference = AFFF72E48E44B25DDB28DD97 /* Pods-MadPuzzle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = T4EZ8P4FAC;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z4JE768Y25;
 				INFOPLIST_FILE = MadPuzzle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.truong.MadPuzzle;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dantevil.MadPuzzle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -694,7 +752,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.truong.puzzle.MadPuzzleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MadPuzzle.app/MadPuzzle";
 			};
@@ -710,7 +768,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.truong.puzzle.MadPuzzleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MadPuzzle.app/MadPuzzle";
 			};
@@ -725,7 +783,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.truong.puzzle.MadPuzzleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = MadPuzzle;
 			};
@@ -740,7 +798,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.truong.puzzle.MadPuzzleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = MadPuzzle;
 			};
