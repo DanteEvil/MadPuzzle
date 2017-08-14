@@ -6,7 +6,7 @@ target 'MadPuzzle' do
   use_frameworks!
 
   # Pods for MadPuzzle
-  #pod ‘lottie-ios’
+  pod ‘lottie-ios’
 
   target 'MadPuzzleTests' do
     inherit! :search_paths
