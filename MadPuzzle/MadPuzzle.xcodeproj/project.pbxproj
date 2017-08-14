@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D51A691250CDAACEAA4EBDD /* Pods_MadPuzzleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 408BF2901E710E6A518E7960 /* Pods_MadPuzzleTests.framework */; };
 		44C90703C86B0B3B5035FE8F /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBAF7794CCBF19A0D986F295 /* CoreVideo.framework */; };
 		4FE644BA25DB3BEAF305EED5 /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F5C298DA9DB82261CC1F785 /* BuddyBuildSDK.framework */; };
 		58335ED81EEE95160061175D /* MPButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58335ED71EEE95160061175D /* MPButtons.swift */; };
@@ -18,14 +17,11 @@
 		58874E971EED22950008DDF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58874E951EED22950008DDF1 /* Main.storyboard */; };
 		58874E991EED22950008DDF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58874E981EED22950008DDF1 /* Assets.xcassets */; };
 		58874E9C1EED22950008DDF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58874E9A1EED22950008DDF1 /* LaunchScreen.storyboard */; };
-		58874EA71EED22950008DDF1 /* MadPuzzleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58874EA61EED22950008DDF1 /* MadPuzzleTests.swift */; };
-		58874EB21EED22950008DDF1 /* MadPuzzleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58874EB11EED22950008DDF1 /* MadPuzzleUITests.swift */; };
 		58874EC11EED285C0008DDF1 /* MPImageEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58874EC01EED285C0008DDF1 /* MPImageEditor.swift */; };
 		58DB69F91EEEA1B900F911CE /* MPBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DB69F81EEEA1B900F911CE /* MPBaseViewController.swift */; };
 		58DB69FC1EEEA1F200F911CE /* MPPrepareGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DB69FB1EEEA1F200F911CE /* MPPrepareGameViewController.swift */; };
 		58FFEE461EF0F20800B50F0E /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FFEE441EF0F20800B50F0E /* ImageCollectionViewCell.swift */; };
 		58FFEE471EF0F20800B50F0E /* ImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58FFEE451EF0F20800B50F0E /* ImageCollectionViewCell.xib */; };
-		71B280326BF891BAD1DD58DF /* Pods_MadPuzzleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E6682319D4545175ED9F18B /* Pods_MadPuzzleUITests.framework */; };
 		797EE78971584313AEFE5446 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 304392305A86C62EF74F7FF2 /* CoreTelephony.framework */; };
 		88D0CFED4F1D5D748B34DF36 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3515D7E39F3ACB8C01D3015F /* AVFoundation.framework */; };
 		AAEFD376105BC1A787562230 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CDD86876241392B6BC3968E /* QuartzCore.framework */; };
@@ -36,31 +32,12 @@
 		E888E057310E431EF0D23F0C /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 315E69D8E8B651E3D7309FCA /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		58874EA31EED22950008DDF1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 58874E861EED22950008DDF1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 58874E8D1EED22950008DDF1;
-			remoteInfo = MadPuzzle;
-		};
-		58874EAE1EED22950008DDF1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 58874E861EED22950008DDF1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 58874E8D1EED22950008DDF1;
-			remoteInfo = MadPuzzle;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		0CDD86876241392B6BC3968E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		0E6682319D4545175ED9F18B /* Pods_MadPuzzleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MadPuzzleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DB8B12A9CF48AB4D0049184 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		304392305A86C62EF74F7FF2 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		315E69D8E8B651E3D7309FCA /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		3515D7E39F3ACB8C01D3015F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		408BF2901E710E6A518E7960 /* Pods_MadPuzzleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MadPuzzleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E7448E31B19127093672FDA /* Pods-MadPuzzleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadPuzzleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MadPuzzleUITests/Pods-MadPuzzleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4EF0C28CBA4B97D2A94FB8BA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		58335ED71EEE95160061175D /* MPButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPButtons.swift; sourceTree = "<group>"; };
@@ -73,10 +50,8 @@
 		58874E981EED22950008DDF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58874E9B1EED22950008DDF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58874E9D1EED22950008DDF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		58874EA21EED22950008DDF1 /* MadPuzzleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MadPuzzleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58874EA61EED22950008DDF1 /* MadPuzzleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MadPuzzleTests.swift; sourceTree = "<group>"; };
 		58874EA81EED22950008DDF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		58874EAD1EED22950008DDF1 /* MadPuzzleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MadPuzzleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58874EB11EED22950008DDF1 /* MadPuzzleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MadPuzzleUITests.swift; sourceTree = "<group>"; };
 		58874EB31EED22950008DDF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58874EC01EED285C0008DDF1 /* MPImageEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPImageEditor.swift; sourceTree = "<group>"; };
@@ -111,22 +86,6 @@
 				88D0CFED4F1D5D748B34DF36 /* AVFoundation.framework in Frameworks */,
 				C88F4C8486FEF6D8EC193680 /* CoreMedia.framework in Frameworks */,
 				44C90703C86B0B3B5035FE8F /* CoreVideo.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		58874E9F1EED22950008DDF1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3D51A691250CDAACEAA4EBDD /* Pods_MadPuzzleTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		58874EAA1EED22950008DDF1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				71B280326BF891BAD1DD58DF /* Pods_MadPuzzleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,8 +133,6 @@
 			isa = PBXGroup;
 			children = (
 				58874E8E1EED22950008DDF1 /* MadPuzzle.app */,
-				58874EA21EED22950008DDF1 /* MadPuzzleTests.xctest */,
-				58874EAD1EED22950008DDF1 /* MadPuzzleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -255,8 +212,6 @@
 			isa = PBXGroup;
 			children = (
 				BCBA6B655DDDBC1835EFCC73 /* Pods_MadPuzzle.framework */,
-				408BF2901E710E6A518E7960 /* Pods_MadPuzzleTests.framework */,
-				0E6682319D4545175ED9F18B /* Pods_MadPuzzleUITests.framework */,
 				6F5C298DA9DB82261CC1F785 /* BuddyBuildSDK.framework */,
 				315E69D8E8B651E3D7309FCA /* AssetsLibrary.framework */,
 				6F3F799C3D758496B3E5C1C3 /* CoreText.framework */,
@@ -306,48 +261,6 @@
 			productReference = 58874E8E1EED22950008DDF1 /* MadPuzzle.app */;
 			productType = "com.apple.product-type.application";
 		};
-		58874EA11EED22950008DDF1 /* MadPuzzleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 58874EB91EED22950008DDF1 /* Build configuration list for PBXNativeTarget "MadPuzzleTests" */;
-			buildPhases = (
-				CECFAC8EA8E59D0A254848ED /* [CP] Check Pods Manifest.lock */,
-				58874E9E1EED22950008DDF1 /* Sources */,
-				58874E9F1EED22950008DDF1 /* Frameworks */,
-				58874EA01EED22950008DDF1 /* Resources */,
-				31C007B96E5B3BD245827DAE /* [CP] Embed Pods Frameworks */,
-				BC198969341FA495BEF3E687 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				58874EA41EED22950008DDF1 /* PBXTargetDependency */,
-			);
-			name = MadPuzzleTests;
-			productName = MadPuzzleTests;
-			productReference = 58874EA21EED22950008DDF1 /* MadPuzzleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		58874EAC1EED22950008DDF1 /* MadPuzzleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 58874EBC1EED22950008DDF1 /* Build configuration list for PBXNativeTarget "MadPuzzleUITests" */;
-			buildPhases = (
-				345E4421B359F1344221A5B9 /* [CP] Check Pods Manifest.lock */,
-				58874EA91EED22950008DDF1 /* Sources */,
-				58874EAA1EED22950008DDF1 /* Frameworks */,
-				58874EAB1EED22950008DDF1 /* Resources */,
-				E58B979E6B46F2246B160DE7 /* [CP] Embed Pods Frameworks */,
-				76E8FF6CC4AEF174FCF30500 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				58874EAF1EED22950008DDF1 /* PBXTargetDependency */,
-			);
-			name = MadPuzzleUITests;
-			productName = MadPuzzleUITests;
-			productReference = 58874EAD1EED22950008DDF1 /* MadPuzzleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -361,14 +274,6 @@
 					58874E8D1EED22950008DDF1 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
-					};
-					58874EA11EED22950008DDF1 = {
-						CreatedOnToolsVersion = 9.0;
-						TestTargetID = 58874E8D1EED22950008DDF1;
-					};
-					58874EAC1EED22950008DDF1 = {
-						CreatedOnToolsVersion = 9.0;
-						TestTargetID = 58874E8D1EED22950008DDF1;
 					};
 				};
 			};
@@ -386,8 +291,6 @@
 			projectRoot = "";
 			targets = (
 				58874E8D1EED22950008DDF1 /* MadPuzzle */,
-				58874EA11EED22950008DDF1 /* MadPuzzleTests */,
-				58874EAC1EED22950008DDF1 /* MadPuzzleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -402,20 +305,6 @@
 				58874E991EED22950008DDF1 /* Assets.xcassets in Resources */,
 				58874E971EED22950008DDF1 /* Main.storyboard in Resources */,
 				58FFEE471EF0F20800B50F0E /* ImageCollectionViewCell.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		58874EA01EED22950008DDF1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		58874EAB1EED22950008DDF1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,54 +326,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MadPuzzle/Pods-MadPuzzle-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		31C007B96E5B3BD245827DAE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MadPuzzleTests/Pods-MadPuzzleTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		345E4421B359F1344221A5B9 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MadPuzzleUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		76E8FF6CC4AEF174FCF30500 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MadPuzzleUITests/Pods-MadPuzzleUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		9E131216C62541F4E51F00E5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -501,54 +342,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BC198969341FA495BEF3E687 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MadPuzzleTests/Pods-MadPuzzleTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CECFAC8EA8E59D0A254848ED /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MadPuzzleTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E58B979E6B46F2246B160DE7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MadPuzzleUITests/Pods-MadPuzzleUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EC4C20F14C2065E11BBBF377 /* [CP] Embed Pods Frameworks */ = {
@@ -587,36 +380,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		58874E9E1EED22950008DDF1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				58874EA71EED22950008DDF1 /* MadPuzzleTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		58874EA91EED22950008DDF1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				58874EB21EED22950008DDF1 /* MadPuzzleUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		58874EA41EED22950008DDF1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 58874E8D1EED22950008DDF1 /* MadPuzzle */;
-			targetProxy = 58874EA31EED22950008DDF1 /* PBXContainerItemProxy */;
-		};
-		58874EAF1EED22950008DDF1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 58874E8D1EED22950008DDF1 /* MadPuzzle */;
-			targetProxy = 58874EAE1EED22950008DDF1 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		58874E951EED22950008DDF1 /* Main.storyboard */ = {
@@ -793,72 +557,6 @@
 			};
 			name = Release;
 		};
-		58874EBA1EED22950008DDF1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD7FC56F096221390F79D6BC /* Pods-MadPuzzleTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = KMLF789FRP;
-				INFOPLIST_FILE = MadPuzzleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.truong.puzzle.MadPuzzleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MadPuzzle.app/MadPuzzle";
-			};
-			name = Debug;
-		};
-		58874EBB1EED22950008DDF1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD00BE5ACFCCC3C44AB15A5B /* Pods-MadPuzzleTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = KMLF789FRP;
-				INFOPLIST_FILE = MadPuzzleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.truong.puzzle.MadPuzzleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MadPuzzle.app/MadPuzzle";
-			};
-			name = Release;
-		};
-		58874EBD1EED22950008DDF1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E7448E31B19127093672FDA /* Pods-MadPuzzleUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = KMLF789FRP;
-				INFOPLIST_FILE = MadPuzzleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.truong.puzzle.MadPuzzleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MadPuzzle;
-			};
-			name = Debug;
-		};
-		58874EBE1EED22950008DDF1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D64FE05FDEAE6C51631B548A /* Pods-MadPuzzleUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = KMLF789FRP;
-				INFOPLIST_FILE = MadPuzzleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.truong.puzzle.MadPuzzleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MadPuzzle;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -876,24 +574,6 @@
 			buildConfigurations = (
 				58874EB71EED22950008DDF1 /* Debug */,
 				58874EB81EED22950008DDF1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		58874EB91EED22950008DDF1 /* Build configuration list for PBXNativeTarget "MadPuzzleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				58874EBA1EED22950008DDF1 /* Debug */,
-				58874EBB1EED22950008DDF1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		58874EBC1EED22950008DDF1 /* Build configuration list for PBXNativeTarget "MadPuzzleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				58874EBD1EED22950008DDF1 /* Debug */,
-				58874EBE1EED22950008DDF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
