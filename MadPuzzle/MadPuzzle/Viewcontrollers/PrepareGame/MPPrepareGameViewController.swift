@@ -20,6 +20,7 @@ class MPPrepareGameViewController: MPBaseViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+        imageListCollectionView.reloadData()
     }
     
     override func didReceiveMemoryWarning() {
@@ -45,12 +46,10 @@ extension MPPrepareGameViewController {
 
 //MARK: UICollectionViewDelegate
 extension MPPrepareGameViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
-    @available(iOS 6.0, *)
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 8
     }
     
-    @available(iOS 6.0, *)
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ImageCollectionViewCell", for: indexPath) as! ImageCollectionViewCell
         cell.populate(image: UIImage(named:String(indexPath.row+1))!)
