@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3D51A691250CDAACEAA4EBDD /* Pods_MadPuzzleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 408BF2901E710E6A518E7960 /* Pods_MadPuzzleTests.framework */; };
+		44C90703C86B0B3B5035FE8F /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBAF7794CCBF19A0D986F295 /* CoreVideo.framework */; };
+		4FE644BA25DB3BEAF305EED5 /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F5C298DA9DB82261CC1F785 /* BuddyBuildSDK.framework */; };
 		58335ED81EEE95160061175D /* MPButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58335ED71EEE95160061175D /* MPButtons.swift */; };
 		5837D9601EF7BE35008E2F5A /* MPImageListLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5837D95F1EF7BE35008E2F5A /* MPImageListLayout.swift */; };
 		583DAAC21EEFDA1700063F72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 583DAAC11EEFDA1700063F72 /* Images.xcassets */; };
@@ -24,7 +26,14 @@
 		58FFEE461EF0F20800B50F0E /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FFEE441EF0F20800B50F0E /* ImageCollectionViewCell.swift */; };
 		58FFEE471EF0F20800B50F0E /* ImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58FFEE451EF0F20800B50F0E /* ImageCollectionViewCell.xib */; };
 		71B280326BF891BAD1DD58DF /* Pods_MadPuzzleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E6682319D4545175ED9F18B /* Pods_MadPuzzleUITests.framework */; };
+		797EE78971584313AEFE5446 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 304392305A86C62EF74F7FF2 /* CoreTelephony.framework */; };
+		88D0CFED4F1D5D748B34DF36 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3515D7E39F3ACB8C01D3015F /* AVFoundation.framework */; };
+		AAEFD376105BC1A787562230 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CDD86876241392B6BC3968E /* QuartzCore.framework */; };
 		BB8CA8C13ABFB4FF19B80B2B /* Pods_MadPuzzle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCBA6B655DDDBC1835EFCC73 /* Pods_MadPuzzle.framework */; };
+		BEDCDB1C7F2AF4964483BD1D /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F3F799C3D758496B3E5C1C3 /* CoreText.framework */; };
+		C88F4C8486FEF6D8EC193680 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB8B12A9CF48AB4D0049184 /* CoreMedia.framework */; };
+		D58E0213D1DED9BE8A72150F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EF0C28CBA4B97D2A94FB8BA /* SystemConfiguration.framework */; };
+		E888E057310E431EF0D23F0C /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 315E69D8E8B651E3D7309FCA /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,9 +54,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CDD86876241392B6BC3968E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		0E6682319D4545175ED9F18B /* Pods_MadPuzzleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MadPuzzleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DB8B12A9CF48AB4D0049184 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		304392305A86C62EF74F7FF2 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		315E69D8E8B651E3D7309FCA /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		3515D7E39F3ACB8C01D3015F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		408BF2901E710E6A518E7960 /* Pods_MadPuzzleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MadPuzzleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E7448E31B19127093672FDA /* Pods-MadPuzzleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadPuzzleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MadPuzzleUITests/Pods-MadPuzzleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4EF0C28CBA4B97D2A94FB8BA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		58335ED71EEE95160061175D /* MPButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPButtons.swift; sourceTree = "<group>"; };
 		5837D95F1EF7BE35008E2F5A /* MPImageListLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPImageListLayout.swift; sourceTree = "<group>"; };
 		583DAAC11EEFDA1700063F72 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -69,11 +84,15 @@
 		58DB69FB1EEEA1F200F911CE /* MPPrepareGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPPrepareGameViewController.swift; sourceTree = "<group>"; };
 		58FFEE441EF0F20800B50F0E /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		58FFEE451EF0F20800B50F0E /* ImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		6F3F799C3D758496B3E5C1C3 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		6F5C298DA9DB82261CC1F785 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BuddyBuildSDK.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
+		93EF5E2C23361D389569FBA8 /* Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		AFFF72E48E44B25DDB28DD97 /* Pods-MadPuzzle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadPuzzle.release.xcconfig"; path = "Pods/Target Support Files/Pods-MadPuzzle/Pods-MadPuzzle.release.xcconfig"; sourceTree = "<group>"; };
 		BA596E41EFD17953EF8B76FF /* Pods-MadPuzzle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadPuzzle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MadPuzzle/Pods-MadPuzzle.debug.xcconfig"; sourceTree = "<group>"; };
 		BCBA6B655DDDBC1835EFCC73 /* Pods_MadPuzzle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MadPuzzle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD00BE5ACFCCC3C44AB15A5B /* Pods-MadPuzzleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadPuzzleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MadPuzzleTests/Pods-MadPuzzleTests.release.xcconfig"; sourceTree = "<group>"; };
 		D64FE05FDEAE6C51631B548A /* Pods-MadPuzzleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadPuzzleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MadPuzzleUITests/Pods-MadPuzzleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EBAF7794CCBF19A0D986F295 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		FD7FC56F096221390F79D6BC /* Pods-MadPuzzleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadPuzzleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MadPuzzleTests/Pods-MadPuzzleTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,6 +102,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB8CA8C13ABFB4FF19B80B2B /* Pods_MadPuzzle.framework in Frameworks */,
+				4FE644BA25DB3BEAF305EED5 /* BuddyBuildSDK.framework in Frameworks */,
+				E888E057310E431EF0D23F0C /* AssetsLibrary.framework in Frameworks */,
+				BEDCDB1C7F2AF4964483BD1D /* CoreText.framework in Frameworks */,
+				797EE78971584313AEFE5446 /* CoreTelephony.framework in Frameworks */,
+				D58E0213D1DED9BE8A72150F /* SystemConfiguration.framework in Frameworks */,
+				AAEFD376105BC1A787562230 /* QuartzCore.framework in Frameworks */,
+				88D0CFED4F1D5D748B34DF36 /* AVFoundation.framework in Frameworks */,
+				C88F4C8486FEF6D8EC193680 /* CoreMedia.framework in Frameworks */,
+				44C90703C86B0B3B5035FE8F /* CoreVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +166,7 @@
 				58874E8F1EED22950008DDF1 /* Products */,
 				C61A7B72BFC65E2A103772B5 /* Pods */,
 				7957F30085CEFBE05A28C8C1 /* Frameworks */,
+				93EF5E2C23361D389569FBA8 /* Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -228,6 +257,15 @@
 				BCBA6B655DDDBC1835EFCC73 /* Pods_MadPuzzle.framework */,
 				408BF2901E710E6A518E7960 /* Pods_MadPuzzleTests.framework */,
 				0E6682319D4545175ED9F18B /* Pods_MadPuzzleUITests.framework */,
+				6F5C298DA9DB82261CC1F785 /* BuddyBuildSDK.framework */,
+				315E69D8E8B651E3D7309FCA /* AssetsLibrary.framework */,
+				6F3F799C3D758496B3E5C1C3 /* CoreText.framework */,
+				304392305A86C62EF74F7FF2 /* CoreTelephony.framework */,
+				4EF0C28CBA4B97D2A94FB8BA /* SystemConfiguration.framework */,
+				0CDD86876241392B6BC3968E /* QuartzCore.framework */,
+				3515D7E39F3ACB8C01D3015F /* AVFoundation.framework */,
+				1DB8B12A9CF48AB4D0049184 /* CoreMedia.framework */,
+				EBAF7794CCBF19A0D986F295 /* CoreVideo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -714,11 +752,16 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z4JE768Y25;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MadPuzzle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dantevil.MadPuzzle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -732,11 +775,16 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z4JE768Y25;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MadPuzzle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dantevil.MadPuzzle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
